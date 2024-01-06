@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    border: 3px solid black;
+    display: flex;
+}
+
+.nav-bar{
+    width: 25em;
+    height: 100vh;
+    background-color: rgb(41, 47, 49);
+    display: inline-block;
+}
+
+.nav-content-div{
+    padding: 0px;
+    background-color: rgb(41, 47, 49);
+    height: auto;
+    width: 10em;
+    margin-top: 10em;
+    margin-left: 2em;
+    font-size: 25px;
+    display: flex;
+
+}
+
+.nav-content{
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    margin: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-content{
+    width: 75em;
+    height: 100vh;
+    background-color:  #ADB1BD;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-class{
+    border: 2px solid black;
+    width: 75em;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.social-class{
+    border: 2px solid black;
+    width: 75em;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bio1{
+    border: 2px solid black;
+    width: 25em;
+    height: 200px;
+    background-color: rgb(119, 199, 221);
+}
+.bio2{
+    border: 2px solid black;
+    width: 25em;
+    height: 200px;
+    background-color: rgb(171, 226, 241);
+}
+.bio3{
+    border: 2px solid black;
+    width: 25em;
+    height: 200px;
+    background-color: rgb(155, 191, 201);
+}
+
+.education-class{
+    border: 2px solid black;
+    width: 75em;
+    height: 2em;
+    background-color: rgb(167, 141, 109);
+}

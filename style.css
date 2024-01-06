@@ -111,12 +111,34 @@ a{
     background-image: url("/images/Mahesh_photo.JPG");
     background-color:  rgb(59, 61, 61);
     background-size: cover;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     border: 4px solid rgb(255, 255, 255);
     border-bottom-color: burlywood;
     border-top-color: burlywood;
-    transition-property: ;
+    
     transition-timing-function: ease-in;
     transition-delay: 2s;
+}
+
+.my-photo::after{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    right: 1.5em;
+    bottom: 8em;
+}
+
+.my-photo::before{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    left: 69em;
+    top: 6em;
 }

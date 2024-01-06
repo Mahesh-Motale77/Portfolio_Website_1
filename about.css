@@ -52,9 +52,29 @@ a{
 
 .about-class{
     border: 2px solid black;
-    width: 75em;
+    width: auto;
     height: auto;
+    padding: 2em;
     background-color: antiquewhite;
+}
+
+.about-me-text{
+    font-family: 'Martel', serif;
+    font-weight: 1000;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.name-profession{
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.bio-para{
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
 }
 
 .social-class{

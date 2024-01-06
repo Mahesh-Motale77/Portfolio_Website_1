@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    border: 3px solid black;
+    display: flex;
+}
+
+.nav-bar{
+    width: 25em;
+    height: 100vh;
+    background-color: rgb(41, 47, 49);
+    display: inline-block;
+}
+
+.nav-content-div{
+    padding: 0px;
+    background-color: rgb(41, 47, 49);
+    height: auto;
+    width: 10em;
+    margin-top: 10em;
+    margin-left: 2em;
+    font-size: 25px;
+    display: flex;
+
+}
+
+.nav-content{
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    margin: 10px;
+    color: white;
+}
+
+.main-content{
+    width: 75em;
+    height: 100vh;
+    background-color: rgb(59, 61, 61);
+    display: inline-block;
+}

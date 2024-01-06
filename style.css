@@ -49,18 +49,6 @@ a{
     display: flex;
 }
 
-.name-class{
-    width: 60em;
-    height: auto;
-    background-color:  #ADB1BD;
-    border: 1px solid black;
-    margin: 8em 0em;
-    padding: 2em 6em 2em 3em;
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .more-about-me{
     height: 2em;
@@ -85,7 +73,9 @@ a{
 .name-actual{
     display: inline-block;
     font-family: cursive;
+    font-family: 40px;
     font-size: 30px;
+    color:rgb(21, 103, 209);
 }
 
 .name-profession{
@@ -98,47 +88,48 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.name-class{
+    width: 70em;
+    height: auto;
+    background-color:  #ADB1BD;
+    margin: 8em 0em;
+    padding: 2em 6em 2em 3em;
+    display: flex;
+    flex-direction: column;
+} 
+
 .photo-class{
     display: flex;
-    width: 40em;
-    border: 1px solid black;
-    margin: 8em 0em;
+    width: 80em;
+    height: auto;
+    margin: 4em 0em;
     justify-content: center;
+
 }
+
 .my-photo{
-    width: 20em;
-    height: 25em;
+    width: 30em;
+    height: 35em;
+    border-radius: 50%;
+    border-bottom: 4px solid burlywood;
     background-image: url("/images/Mahesh_photo.JPG");
     background-color:  rgb(59, 61, 61);
     background-size: cover;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: 4px solid rgb(255, 255, 255);
-    border-bottom-color: burlywood;
-    border-top-color: burlywood;
-    
-    transition-timing-function: ease-in;
-    transition-delay: 2s;
+    position: absolute;
+    z-index: 1;
 }
 
-.my-photo::after{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid black;
-    border-right: 10px solid black;
-    right: 1.5em;
-    bottom: 8em;
+.demo{
+    width: 25em;
+    height: 30em;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgb(21, 103, 209);
+    background-color:  #ADB1BD;
+    animation: spin 2s linear infinite;
 }
 
-.my-photo::before{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid black;
-    border-left: 10px solid black;
-    left: 69em;
-    top: 6em;
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(180deg);  }
 }
